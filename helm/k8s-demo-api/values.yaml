@@ -3,7 +3,7 @@ replicaCount: 1
 image:
   repository: ghcr.io/timrodneydavis/k8s-demo-api
   pullPolicy: IfNotPresent
-  tag: "7cd04cd1ca9a6bbf5ca3c3d357a1537d8452e2c6"
+  tag: "388dbc16433d598dc3d67b46e24f30a4b0b4b834"
 
 imagePullSecrets:
   - name: ghcr-pull
