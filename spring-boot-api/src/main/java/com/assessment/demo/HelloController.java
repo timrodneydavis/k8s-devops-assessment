@@ -14,7 +14,7 @@ public class HelloController {
     @GetMapping("/hello")
     public Map<String, String> hello() {
         return Map.of(
-                "message", "Hello from Kubernetes DevOps Assessment!",
+                "message", "Hello from GitOps-powered Kubernetes! Version 2",
                 "application", "k8s-demo-api"
         );
     }

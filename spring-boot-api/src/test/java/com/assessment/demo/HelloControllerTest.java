@@ -22,7 +22,7 @@ class HelloControllerTest {
         mockMvc.perform(get("/api/hello"))
                 .andExpect(status().isOk())
                 .andExpect(jsonPath("$.message")
-                        .value("Hello from Kubernetes DevOps Assessment!"))
+                        .value("Hello from GitOps-powered Kubernetes! Version 2"))
                 .andExpect(jsonPath("$.application")
                         .value("k8s-demo-api"));
     }
